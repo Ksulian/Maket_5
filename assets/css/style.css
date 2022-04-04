@@ -53,3 +53,15 @@ body{
 .header_nav:hover{
     text-decoration: underline;
 }
+/* main */
+.main_wrapper{
+    margin: 100px 0;
+}
+.main_text{
+    font-family: 'Palatino Linotype';
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #353732;
+}
