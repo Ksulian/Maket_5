@@ -36,6 +36,11 @@ body{
     width: 770px;
 }
 /* header */
+.header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
 .header_wrapper{
     margin: 20px 0;
     display: flex;
@@ -64,4 +69,136 @@ body{
     font-size: 36px;
     line-height: 40px;
     color: #353732;
+}
+/* cards */
+.cards{
+    background: #FAFAFA;
+}
+.cards_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards_wrapper{
+    padding: 100px 0;
+}
+.card{
+    width: 505px;
+    height: 550px;
+    background-color: white;
+}
+.card:hover{
+    box-shadow: 0 0 5px #353732;
+}
+.card_text{
+    margin-left: 20px;
+}
+.card_intro{
+    margin-top: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #353732;
+}
+.card_title{
+    margin: 10px 0;
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #45525B;    
+}
+.card_subtitle{
+    margin-bottom: 65px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #45525B;
+}
+.card_data{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    padding-bottom: 30px;
+    color: #45525B;
+}
+.card2{
+    margin-bottom: 32px;
+    width: 243px;
+    height: 256px;
+    background-color: white;
+}
+.card2:hover{
+    box-shadow: 0 0 5px #353732;
+}
+.card2_title{
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 0;
+    color: #45525B;
+}
+.card3{
+    height: 330px;
+    background-color: white;
+    width: 374px;
+}
+.card3:hover{
+    box-shadow: 0 0 5px #353732;
+}
+.card3_title{
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 17px;
+    margin: 10px 0;
+    line-height: 24px;
+    color: #45525B;
+}
+.cards_new_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card4{
+    margin-top: 16px;
+    height: 273px;
+    background-color: white;
+    width: 243px;
+}
+.card4:hover{
+    box-shadow: 0 0 5px #353732;
+}
+.card3_intro{
+    margin-top: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #353732
+}
+.card3_data{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #45525B;
+}
+.card3_title{
+    margin-top: 6px;
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
 }
