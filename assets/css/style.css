@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "Georgia";
+    src: url("../fonts/Georgia_regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Palatino Linotype";
+    src: url("../fonts/Palatino_Linotype.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Georgia;
+    font-weight: 400;
+}
+.container_header{
+    margin: 0 auto;
+    width: 1160px;
+}
+.container{
+    margin: 0 auto;
+    width: 770px;
+}
+/* header */
+.header_wrapper{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_nav{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #353732;
+    margin-left: 30px;
+}
+.header_nav:hover{
+    text-decoration: underline;
+}
